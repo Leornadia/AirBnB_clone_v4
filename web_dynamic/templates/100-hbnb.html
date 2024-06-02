@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100-hbnb</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="static/scripts/100-hbnb.js"></script>
+    <style>
+        /* Style the checkbox position */
+        input[type="checkbox"] {
+            margin-left: 10px; /* Position checkbox 10px to the left of text */
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <!-- Add checkbox inputs for States -->
+        <li>
+            <input type="checkbox" data-id=":state_id" data-name=":state_name">
+            State Name
+        </li>
+        <!-- Add checkbox inputs for Cities -->
+        <li>
+            <input type="checkbox" data-id=":city_id" data-name=":city_name">
+            City Name
+        </li>
+        <!-- Add more <li> elements for other States and Cities -->
+    </ul>
+    <div id="Locations">
+        <h4>Selected Locations:</h4>
+        <!-- Location list dynamically updated by JavaScript -->
+    </div>
+    <button id="searchButton">Search</button>
+</body>
+</html>
+

@@ -1,0 +1,20 @@
+$(document).ready(function() {
+    $('input[type="checkbox"]').change(function() {
+        if ($(this).is(':checked')) {
+            // Store State or City ID and name in a variable
+            // Add code to store ID and name in a dictionary or list
+        } else {
+            // Remove State or City ID from the variable
+            // Add code to remove ID from the dictionary or list
+        }
+
+        // Update the h4 tag inside the Locations div with the list of checked States or Cities
+        // Add code to update the h4 tag
+    });
+
+    $('#searchButton').click(function() {
+        // Make a POST request to places_search with the list of Amenities, Cities, and States checked
+        // Add code to make a POST request
+    });
+});
+
